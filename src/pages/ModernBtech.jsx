@@ -1,0 +1,12 @@
+import React from 'react'
+import Page from '../components/Page'
+import modern from "../assets/modern.jpg"
+
+
+export default function ModernBtech() {
+ 
+  return (
+    <div><Page heading="Modern College B.Tech" page="/btech" page2="Modern College" overview="Modern College of Engineering was established in the year 1999. The Institute is approved by All India Council of Technical Education (AICTE), New Delhi, Directorate of Technical Education (DTE), and Government of Maharashtra and is permanently affiliated to Savitribai Phule Pune University (SPPU), complying with all the norms and standards of engineering and management education. The Institute is UGC recognized under 2(f) and 12(B) and NAAC accredited. With a great vision and dynamic approach of our Principal, Prof. Dr. (Mrs.) K.R. Joshi the Institute has reached to the new height at national and international level."  image={modern} course1="B. Tech Arificial Intelligence and Data Science" course2="B. Tech Chemical" course3="B. Tech Civil" course4="B. Tech Computer" course5="B. Tech Electronics and Telecommunications" course6="B. Tech Artificial Intelligence and Machine Learning" course7="B. Tech Electrical" course8="B. Tech Electronics and Computer" course9="B. Tech Information Technology" course10="B.Tech Mechanical" elgilist1="The Candidate should be an Indian National" elgilist2="Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical Vocational subject or Computer Science or Information Technology or Informatics Practices or Agriculture or Engineering Graphics or Business Studies and obtained at least 45% marks (at least 40% marks, in case of Backward Class categories, Economically Weaker Section and Persons with Disability category candidates belonging to Maharashtra State), in the subjects taken together; and the Candidate should have appeared in all the subjects in CET and should obtain non zero score in CET conducted by the Competent Authority" elgilist3="All India Candidature Candidates, Jammu and Kashmir Migrant Candidature Candidates are also accepted." placement="Basically, the placement is good, around 60–70 percent students placed every year, the highest package is 17.5 lakh; the average is 4.5 lakh; the top companies are Cognizant, etc. It depends on what everyone chooses, but there are a lot of opportunities at the college" company1="TCS" company2="Aloha" company3="Jio" company4="IBM" 
+   /></div>
+  )
+}

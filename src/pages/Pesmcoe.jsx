@@ -1,0 +1,12 @@
+import React from 'react'
+import Page from '../components/Page'
+import pesmcoe from '../assets/pesmcoe.jpg'
+
+export default function Pesmcoe() {
+  return (
+    <div><Page heading="Modern College B.Tech" page="/btech" page2="Modern College" overview="The Progressive Education Society's Modern College of Engineering (PESMCOE) in Pune, Maharashtra offers a B. Tech program. PESMCOE is a private institute that was established in 1999 and is approved by the All India Council for Technical Education (AICTE). It is also affiliated with Savitribai Phule Pune University and recognized by the University Grants Commission (UGC). In 2023, IIRF ranked PESMCOE 79th for B. Tech
+    PESMCOE offers 19 programs at the undergraduate and postgraduate levels. The undergraduate programs last four years, while the postgraduate programs last between two and three years. The college offers programs that integrate professional skills and career, including: Artificial Intelligence & Data Science Engineering, Artificial Intelligence & Machine Learning Engineering, and Electronics and Computer Engineering." image={pesmcoe}  course4="B. Tech Computer" course5="B. Tech Electronics and Telecommunications"   course9="B. Tech Information Technology" course10="B.Tech Mechanical" course1="Master of Computer Applications" course2="Master of Business Administration" elgilist1="To be eligible for admission to the B.Tech program at Modern College of Engineering (PES MCOE) in Pune, candidates must have passed or be appearing for the 10+2 examination with Physics and Mathematics as compulsory subjects. They must also have passed one of the following subjects:
+    Chemistry, Biotechnology, Biology, Electronics, Computer Science, Information Technology, Geology, and Statics." elgilist2="Candidates must have obtained at least 45% marks in the above subjects taken together. In case of candidates of Backward Class categories, Economically Weaker Section and Persons with Disability category belonging to Maharashtra State, candidates must have passed with at least 40% marks." placement=" Basically, the placement is good, around 60–70 percent students placed every year, the highest package is 17.5 lakh; the average is 4.5 lakh; the top companies are Cognizant, etc. It depends on what everyone chooses, but there are a lot of opportunities at the college" company1="TCS" company2="Infosys" company3="Aloha" company4="IBM" 
+       /></div>
+  )
+}
